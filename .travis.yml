@@ -1,5 +1,8 @@
   language: python
   python:
-    - "3.6"
-  script:
-    - pytest
+    - 2.6
+    - 2.7
+    - 3.6
+  install:
+    - pip install unittest2
+  script: python forvideo.py
