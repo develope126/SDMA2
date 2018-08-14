@@ -1,11 +1,11 @@
 import unittest
 class ForVideo(unittest.TestCase):
   def setUp(self):
-    print 'first text'
+    print("first")
   def test_search_in_python_org(self):
-    print 'second text'
+    print("second")
   def tearDown(self):
-    print 'third text'
+    print("third")
     
 if __name__ == "__main__":
   unittest.main()
