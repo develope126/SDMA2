@@ -1,5 +1,5 @@
 import unittest
-class ForVideo(unittest.TextCase):
+class ForVideo(unittest.TestCase):
   def setUp(self):
     print 'first text'
   def test_search_in_python_org(self):
